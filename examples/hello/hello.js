@@ -14,7 +14,7 @@ var textView = tabris.create("TextView", {
 }).appendTo(page);
 
 button.on("select", function() {
-  textView.set("text", "Totally Rock!");
+  textView.set("text", "Totally sucks!");
 });
 
 page.open();
